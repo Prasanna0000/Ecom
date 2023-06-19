@@ -1,0 +1,91 @@
+.containeres {
+    margin: 0px;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+
+  }
+  .logopro{
+    background-color: #f5ebdf;
+    border-radius: 50%;
+  }
+  .deletes{
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .profile-card {
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.6);
+    max-width: 455px;
+    max-height: 750px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+  }
+  
+  .profile-card img {
+    width: 40%;
+  }
+  
+  .designation {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .social {
+    margin: 20px 0;
+  }
+  
+  .social a {
+    font-size: 18px;
+    padding: 7px 12px;
+    text-decoration: none;
+    background-color: #00305b;
+    color: white;
+    border-radius: 10px;
+    margin: 0 3px;
+  }
+  
+  .social a:hover {
+    background-color: #005bad;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 10px;
+    overflow-x: auto;
+    
+  }
+  
+  .grid-item {
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .grid-label {
+    font-weight: bold;
+    text-align: left;
+
+  }
+
+  
+  .actions {
+    margin-top: 1px;
+    width: 40%;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
+.grid-value{
+    text-align: left;
+    padding-left: 5px;
+}

@@ -1,0 +1,381 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    width: 5%;
+    text-align: center;
+    height: 2%;
+    background-color: transparent;
+
+  }
+}
+
+.ticks{
+position: absolute;
+left: 95%;
+top:-15%;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  background-color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  color: #282c34;
+  padding: 10px;
+  background-color: #282c34;
+  border-radius: 5px;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.card-details {
+  text-align: center;
+}
+
+.card-details h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.card-details p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.noews{
+  margin-top: 20px;
+background-color: #282c34;
+border-radius: 20px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: #282c34;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.btns{
+  color: white;
+  background-color: #00FF00 ;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.btns1{
+  color: white;
+  background-color: #4BB543;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.login-form label {
+  display: inline;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 200px;
+  float: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+
+.login{
+  margin: 70px;
+}
+.new1{
+  width: 50%;
+  display: inline;
+  margin-right: 15px;
+}
+
+.new2{
+  float: right;
+  margin-bottom: 10px;
+
+}
+.newtags1{
+  display: inline;
+  margin-left: 500px;
+}
+.newtags2{
+  float: right;
+  margin-bottom: 10px;
+
+}
+
+.tick{
+  width: 300px;
+}
+.ticks{
+  width: 2%;
+  position: absolute;
+  bottom: 88%;
+}
+
+.conf{
+  margin-right: 1000px;
+}
+.content{
+  color: #4BB543;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.btn23{
+  padding: 10px;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: #00BFFF;
+  border-color: #00BFFF;
+  border-radius: 15px;
+  margin-left: 800px;
+}
+
+.card-image1{
+  width: 20%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.nono{
+  font-size: 30px;
+
+}
+
+.res1{
+  display: inline;
+  width: 50%;
+}
+.res2{
+  width: 50%;
+  display: inline;
+  background-color: #61dafb;
+}
+
+.new11{
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 250px;
+  margin-left: 250px;
+
+
+}
+
+.price{
+  color: #4BB543;
+  font-size: xx-large;
+  font-weight: bolder;
+  left: 1000px;
+  bottom: 450px;
+  position: absolute;
+
+
+}
+
+
+
+/*Shop card add item css*/
+
+.count{
+font-size: small;
+color: red;
+font-weight: bolder;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 20%;
+  top: -102px;
+}
+
+.search{
+  width: 30%;
+  border: 2px solid black;
+}
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.shopicon{
+  position: relative;
+  top: 45px;
+  left: 1010px;
+  width: 5%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*Shop card add item css*/
+
+.buttons12{
+display: inline;
+position: relative;
+left: -10%;
+font-weight: bolder;
+border-radius: 90%;
+width: 7%;
+
+}
+.btns123{
+  position: relative;
+top: 20px;
+left: -40px;   
+background-color: #00BFFF;
+font-weight: bolder;
+border-radius: 90%;
+width: 7%; 
+}
+.buttons1123{
+display: inline;
+position: relative;
+bottom: 2px;
+left: -50px;
+font-weight: bolder;
+border-radius: 90%;
+width: 7%;
+}
+.buttons2{
+display: inline;
+position: relative;
+right: -10%;
+bottom: 65px;
+background-color: red;
+font-weight: bolder;
+border-radius: 90%;
+width: 7%;
+}
+.checkcolor{
+  background-color:#568e9d;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  border-bottom-right-radius:-140px;
+  border-bottom-left-radius: -140px;
+
+}
+
+.counts{
+  padding-left: 3%;
+  width: 100%;
+  font-size: xx-large;
+  position: relative;
+  display: inline;
+}
+
