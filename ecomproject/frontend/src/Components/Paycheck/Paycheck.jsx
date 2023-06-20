@@ -136,7 +136,7 @@ const Paycheck = () => {
                                     <input placeholder='Enter card number' />
                                     <input placeholder='Enter card number' />
                                 </div>
-                                <button className='pay' onClick={handlePayment}>Pay</button>
+                                <button className='pay' onClick={handlePayment}>PAY</button>
 
                             </p>
                         </div>
